@@ -1,0 +1,76 @@
+{
+  "appPageId" : "6320dcd3-ba8c-4025-8db6-739481f28356",
+  "componentName" : "siteforce:dynamicLayout",
+  "id" : "7ae1030b-9f54-4680-ba22-dce0884c18e5",
+  "label" : "Login1",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 100,
+        "sectionConfig" : {
+          "UUID" : "003d7fea-c04f-47bf-b3f4-f4b3825aba03",
+          "columns" : [ {
+            "UUID" : "de346234-a8d6-44b9-b121-402f26a47a1f",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "12",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 300
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "003d7fea-c04f-47bf-b3f4-f4b3825aba03",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "forgotPasswordLabel" : "Forgot your password?",
+            "forgotPasswordUrl" : "/ForgotPassword",
+            "loginButtonLabel" : "Log in",
+            "passwordLabel" : "Password",
+            "selfRegisterLabel" : "Not a member?",
+            "selfRegisterUrl" : "/SelfRegister",
+            "startUrl" : "",
+            "usernameLabel" : "Email"
+          },
+          "componentName" : "c:loginForm",
+          "id" : "00f18b73-a483-4b74-8de3-d852c439dfce",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "de346234-a8d6-44b9-b121-402f26a47a1f",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "436eeca7-64be-462c-9551-06bc33ec87dc",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : ""
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "c8e64e52-55b3-4803-8540-e2c3fcecd58c",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "ba1fe7d1-4348-4e86-b105-3291e41e6a5d",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Login",
+  "type" : "view",
+  "viewType" : "login-home"
+}

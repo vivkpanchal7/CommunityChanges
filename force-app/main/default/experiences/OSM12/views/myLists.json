@@ -1,0 +1,65 @@
+{
+  "appPageId" : "73c5e779-0158-45c9-bedd-4db757b43e8a",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "id" : "63315bad-92d8-44e2-844e-accbe9972308",
+  "label" : "My Lists",
+  "regions" : [ {
+    "id" : "31c88e66-0841-4705-ade8-21796b771c01",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "addAllItemsToCartButtonBackgroundColor" : "",
+        "addAllItemsToCartButtonBackgroundHoverColor" : "",
+        "addAllItemsToCartButtonBorderColor" : "",
+        "addAllItemsToCartButtonBorderRadius" : "0",
+        "addAllItemsToCartButtonText" : "Add All Items To Cart",
+        "addAllItemsToCartButtonTextColor" : "",
+        "addAllItemsToCartButtonTextHoverColor" : "",
+        "addToCartButtonBackgroundColor" : "",
+        "addToCartButtonBackgroundHoverColor" : "",
+        "addToCartButtonBorderColor" : "",
+        "addToCartButtonBorderRadius" : "0",
+        "addToCartButtonText" : "Add To Cart",
+        "addToCartButtonTextColor" : "",
+        "addToCartButtonTextHoverColor" : "",
+        "emptyWishlistItemsBodyLabel" : "Add the products that you want to remember.",
+        "emptyWishlistItemsHeaderLabel" : "No items on this list yet",
+        "emptyWishlistsBodyLabel" : "Create lists of the products that you want to remember.",
+        "emptyWishlistsHeaderLabel" : "No lists yet",
+        "negotiatedPriceFontColor" : "rgb(79,79,79)",
+        "negotiatedPriceFontSize" : "large",
+        "newListButtonText" : "Create List",
+        "originalPriceFontColor" : "rgb(151, 151, 151)",
+        "originalPriceFontSize" : "small",
+        "productFieldMapping" : "",
+        "selectWishlistLabel" : "Click a list to open it.",
+        "showNegotiatedPrice" : true,
+        "showNewListButtonIcon" : true,
+        "showOriginalPrice" : true,
+        "showProductCounts" : true,
+        "showProductImage" : true,
+        "showSku" : true,
+        "skuLabel" : "SKU#",
+        "titleText" : "My Lists",
+        "unavailablePriceLabel" : "Price unavailable"
+      },
+      "componentName" : "b2b_buyer_builder:wishlistsManager",
+      "id" : "061ba513-3561-41b1-82c3-5fd0d74816d1",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "ab14b530-3ea4-478a-bd35-929ddb90f9de",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "f40f53c7-0e63-4d69-a8a0-7bd3ccb5573d",
+    "regionName" : "footer",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "wishlist"
+}

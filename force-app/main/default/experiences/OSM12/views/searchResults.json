@@ -1,0 +1,73 @@
+{
+  "appPageId" : "73c5e779-0158-45c9-bedd-4db757b43e8a",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "id" : "60c25ff4-bdb5-4bc2-92a6-53c73300affb",
+  "label" : "Search Results",
+  "regions" : [ {
+    "id" : "a8d021b5-5451-4b32-93f8-5c320d5fb437",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "addToCartButtonBackgroundColor" : "",
+        "addToCartButtonBackgroundHoverColor" : "",
+        "addToCartButtonBorderColor" : "",
+        "addToCartButtonBorderRadius" : "0",
+        "addToCartButtonText" : "ADD TO CART",
+        "addToCartButtonTextColor" : "",
+        "addToCartButtonTextHoverColor" : "",
+        "breadcrumbsColor" : "",
+        "breadcrumbsFontSize" : "small",
+        "cardAlignment" : "center",
+        "cardBackgroundColor" : "",
+        "cardBorderColor" : "rgba(255, 255, 255, 0)",
+        "cardBorderRadius" : "0",
+        "cardContentMapping" : "",
+        "cardDividerColor" : "rgb(221, 219, 218)",
+        "gridColumnSpacing" : "small",
+        "gridMaxColumnsDisplayed" : "4",
+        "gridRowSpacing" : "large",
+        "incrementQuantityGuideText" : "Sold in increments of {0}",
+        "listRowSpacing" : "small",
+        "maximumQuantityGuideText" : "Maximum quantity is {0}",
+        "minimumQuantityGuideText" : "Minimum quantity is {0}",
+        "negotiatedPriceTextColor" : "",
+        "negotiatedPriceTextSize" : "medium",
+        "noResultsRichText" : "<br><br><h1> No results found </h1><br><h2>Try these search tips instead:</h2><br><ol><li>Check your spelling</li><li>Search by product type, SKU, or feature</li><li>Broaden your search using fewer or more general words</li></ol>",
+        "originalPriceTextColor" : "",
+        "originalPriceTextSize" : "small",
+        "pageResultsType" : "searchResults",
+        "pageTitleFontColor" : "",
+        "pageTitleFontSize" : "large",
+        "quantitySelectorLabelText" : "QTY",
+        "resultsLayout" : "grid",
+        "showAddToCartButton" : true,
+        "showBreadCrumbs" : true,
+        "showNegotiatedPrice" : true,
+        "showNoSearchResults" : false,
+        "showOriginalPrice" : true,
+        "showProductImage" : true,
+        "showQuantityRulesSetup" : "true",
+        "showQuantityRulesText" : true,
+        "showSearchSortingMenuSetup" : "true",
+        "viewOptionsButtonText" : "VIEW OPTIONS"
+      },
+      "componentName" : "b2b_search_builder:resultsDisplay",
+      "id" : "7157d35c-0616-4466-aa2d-020ff5728cc2",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "0095d88d-90cc-4de7-841b-595d6da39101",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "61d05abe-2db3-41c9-90a7-73946b27ad0a",
+    "regionName" : "footer",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "global-search"
+}

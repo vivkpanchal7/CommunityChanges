@@ -1,0 +1,130 @@
+{
+  "appPageId" : "73c5e779-0158-45c9-bedd-4db757b43e8a",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "id" : "afd08239-9563-4ec2-9326-01f9878f5a09",
+  "label" : "Account Management",
+  "regions" : [ {
+    "id" : "fd451efa-3c5d-4bf1-9f4a-642a2c1b2d04",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "tabsetConfig" : {
+          "UUID" : "e3de8376-ef1e-4edf-bf36-dec88f844ed7",
+          "activeTab" : "tab1",
+          "tabs" : [ {
+            "UUID" : "5ee68c33-8f14-4993-96ed-c7e8865e2ffd",
+            "allowGuestUser" : false,
+            "locked" : false,
+            "seedComponents" : [ {
+              "attributes" : {
+                "customTitle" : "Members",
+                "parentRecordId" : "{!CurrentUser.effectiveAccountId}",
+                "relatedListName" : "Users",
+                "showBreadCrumbs" : "false",
+                "showCustomTitle" : "true",
+                "showManualRefreshButton" : "false",
+                "showRowNumbers" : "false"
+              },
+              "fqn" : "forceCommunity:relatedList"
+            } ],
+            "tabKey" : "tab1",
+            "tabName" : "Members"
+          }, {
+            "UUID" : "6a793059-59ea-4465-bd6e-3291c9229563",
+            "allowGuestUser" : false,
+            "locked" : false,
+            "seedComponents" : [ {
+              "attributes" : {
+                "parentRecordId" : "{!CurrentUser.effectiveAccountId}",
+                "relatedListName" : "Carts",
+                "showBreadCrumbs" : "false",
+                "showCustomTitle" : "false",
+                "showManualRefreshButton" : "false",
+                "showRowNumbers" : "false"
+              },
+              "fqn" : "forceCommunity:relatedList"
+            } ],
+            "tabKey" : "tab2",
+            "tabName" : "Carts"
+          } ],
+          "useOverflowMenu" : false
+        }
+      },
+      "componentName" : "forceCommunity:tabset",
+      "id" : "e3de8376-ef1e-4edf-bf36-dec88f844ed7",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "customTitle" : "Members",
+            "parentRecordId" : "{!CurrentUser.effectiveAccountId}",
+            "relatedListName" : "Users",
+            "showBreadCrumbs" : false,
+            "showCustomTitle" : true,
+            "showManualRefreshButton" : false,
+            "showRowNumbers" : false
+          },
+          "componentName" : "forceCommunity:relatedList",
+          "id" : "335df242-0a13-41a2-b9c3-fccaa7f7136e",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "5ee68c33-8f14-4993-96ed-c7e8865e2ffd",
+        "regionLabel" : "Members",
+        "regionName" : "tab1",
+        "renditionMap" : { },
+        "type" : "region"
+      }, {
+        "components" : [ {
+          "componentAttributes" : {
+            "customTitle" : "",
+            "parentRecordId" : "{!CurrentUser.effectiveAccountId}",
+            "relatedListName" : "Carts",
+            "showBreadCrumbs" : false,
+            "showCustomTitle" : false,
+            "showManualRefreshButton" : false,
+            "showRowNumbers" : false
+          },
+          "componentName" : "forceCommunity:relatedList",
+          "id" : "9b6ae42c-d293-4c13-ae7e-09d77b24aee0",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "6a793059-59ea-4465-bd6e-3291c9229563",
+        "regionLabel" : "Carts",
+        "regionName" : "tab2",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "a0b43c61-2d2a-4a06-81aa-33d30200679a",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "3932f0a7-36d8-44ad-80ac-c6e66720dc76",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "Account Management"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "51f58833-af2d-4140-9fc3-47c434865a52",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "d1923084-95c5-450b-ab45-4201b98e293e",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "account-management"
+}

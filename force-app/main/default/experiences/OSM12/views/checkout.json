@@ -1,0 +1,32 @@
+{
+  "appPageId" : "73c5e779-0158-45c9-bedd-4db757b43e8a",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "id" : "cee98d0c-5d27-4cdc-a3e0-59d986af037a",
+  "label" : "Checkout",
+  "regions" : [ {
+    "id" : "b69559a4-b38e-4e0e-aa83-97be3bfac1b7",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "checkoutFlowName" : "sfdc_checkout__CheckoutTemplate"
+      },
+      "componentName" : "forceCommunity:checkoutFlow",
+      "id" : "9e9aa558-179c-4ed8-a6f3-fac14d5f09bf",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "74cf5c86-4d32-456d-9171-61b52a80a9e7",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "b183ab2a-f17e-4b22-a39e-6ec8ec63e67d",
+    "regionName" : "footer",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Checkout",
+  "type" : "view",
+  "viewType" : "checkout"
+}
